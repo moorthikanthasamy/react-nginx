@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
-    "build-prod": "webpack --config webpack.prod.js"
+    "build-prod": "webpack --config webpack.prod.js",
+    "pack": "mkdir build && zip -r build/dist.zip dist"
   },
   "author": "Moorthi Kanthasamy",
   "license": "ISC",
